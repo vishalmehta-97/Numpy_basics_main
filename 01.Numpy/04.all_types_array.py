@@ -11,6 +11,9 @@ print(ar)
 arr=np.zeros([2,3,3])
 print(arr)
 
+arr3=np.zeros([2,4,3])
+print(arr3)
+
 arrr=np.zeros([2,3,3,2])
 print(arrr)
 
@@ -129,6 +132,7 @@ b=a.copy()    # using this(.copy()) will help to copy the array and it will also
 print(a)
 b[0]=10
 print(b)
+
 
 
 
